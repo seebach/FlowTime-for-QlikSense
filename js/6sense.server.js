@@ -20,22 +20,22 @@ window.setInterval(function(){
 function flowController (e) {
    // alert(e.progress);
    console.log(e.progress);
-  if( e.progress == 4 ) {
-  //  app.bookmark.apply('KwKxY');
+  if( e.progress == 3 ) {
+    app.bookmark.apply('KwKxY');
     $("#CurrentSelections").show("slow");
 
-  } else if( e.progress == 5 ) {
-    //  app.bookmark.apply('PArzPaM');
+  } else if( e.progress == 4 ) {
+      app.bookmark.apply('PArzPaM');
       $("#CurrentSelections").show("slow");
     } else if( e.progress == 6 ) {
-      //  app.bookmark.apply('kEPJJf');
+        app.bookmark.apply('kEPJJf');
         $("#CurrentSelections").show("slow");
 
   } else {
   //  hide stuff
   $("#CurrentSelections").hide("slow");
 
-//  app.clearAll();
+  app.clearAll();
   }
 
 }

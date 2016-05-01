@@ -64,15 +64,15 @@ var Flowtime = (function ()
   var overviewCachedDest;                                                                // caches the destination before performing an overview zoom out for navigation back purposes
   var overviewFixedScaleFactor = 22;                                                     // fixed scale factor for overview variant
   var defaultProgress = null;                                                            // default progress bar reference
-  var sectionDataIdMax = 0;                
-                 
+  var sectionDataIdMax = 0;
+
   var _isOverview = false;                                                               // Boolean status for the overview
   var _useOverviewVariant = false;                                                       // use an alternate overview layout and navigation (experimental - useful in case of rendering issues)
   var _fragmentsOnSide = false;                                                          // enable or disable fragments navigation when navigating from sections
   var _fragmentsOnBack = true;                                                           // shows or hide fragments when navigating back to a page
   var _slideInPx = false;                                                                // calculate the slide position in px instead of %, use in case the % mode does not works
   var _twoStepsSlide = false;                                                            // not yet implemented! slides up or down before, then slides to the page
-  var _isLoopable = false;                 
+  var _isLoopable = false;
   var _showProgress = false;                                                             // show or hide the default progress indicator (leave false if you want to implement a custom progress indicator)
   var _clickerMode = false;                                                              // Used if presentation is being controlled by a "presenter" device (e.g., R400)
   var _parallaxInPx = false;                                                             // if false the parallax movement is calulated in % values, if true in pixels
@@ -81,7 +81,7 @@ var Flowtime = (function ()
   var _parallaxEnabled = document.querySelector(".parallax") != null;                    // performance tweak, if there is no elements with .parallax class disable the dom manipulation to boost performances
   var _mouseDragEnabled = false;                                                         // in enabled is possible to drag the presentation with the mouse pointer
   var _isScrollActive = true;                                                            // flags to enable or disable javascript input listeners for the navigation
-  var _isScrollable = true;                                                             
+  var _isScrollable = true;
   var _isKeyboardActive = true;
   var _isTouchActive = true;
   var _areLinksActive = true;
@@ -306,13 +306,13 @@ var Flowtime = (function ()
     }
 
     /*
-##     ## ########  ########     ###    ######## ########  #######  ######## ########  ######  ######## ########  ######  
-##     ## ##     ## ##     ##   ## ##      ##    ##       ##     ## ##       ##       ##    ## ##          ##    ##    ## 
-##     ## ##     ## ##     ##  ##   ##     ##    ##       ##     ## ##       ##       ##       ##          ##    ##       
-##     ## ########  ##     ## ##     ##    ##    ######   ##     ## ######   ######    ######  ######      ##     ######  
-##     ## ##        ##     ## #########    ##    ##       ##     ## ##       ##             ## ##          ##          ## 
-##     ## ##        ##     ## ##     ##    ##    ##       ##     ## ##       ##       ##    ## ##          ##    ##    ## 
- #######  ##        ########  ##     ##    ##    ########  #######  ##       ##        ######  ########    ##     ######  
+##     ## ########  ########     ###    ######## ########  #######  ######## ########  ######  ######## ########  ######
+##     ## ##     ## ##     ##   ## ##      ##    ##       ##     ## ##       ##       ##    ## ##          ##    ##    ##
+##     ## ##     ## ##     ##  ##   ##     ##    ##       ##     ## ##       ##       ##       ##          ##    ##
+##     ## ########  ##     ## ##     ##    ##    ######   ##     ## ######   ######    ######  ######      ##     ######
+##     ## ##        ##     ## #########    ##    ##       ##     ## ##       ##             ## ##          ##          ##
+##     ## ##        ##     ## ##     ##    ##    ##       ##     ## ##       ##       ##    ## ##          ##    ##    ##
+ #######  ##        ########  ##     ##    ##    ########  #######  ##       ##        ######  ########    ##     ######
     */
 
     /**
@@ -337,7 +337,7 @@ var Flowtime = (function ()
           _sp.x = _spParent.offsetLeft;
           _sp.y = _sp.offsetTop - (yGlobal + yGlobalDelta);
         }
-         
+
       }
     }
 
@@ -1477,13 +1477,13 @@ var Flowtime = (function ()
   }
 
 /*
-##     ## ########  ########     ###    ######## ########    ##    ##    ###    ##     ## ####  ######      ###    ######## ####  #######  ##    ## 
-##     ## ##     ## ##     ##   ## ##      ##    ##          ###   ##   ## ##   ##     ##  ##  ##    ##    ## ##      ##     ##  ##     ## ###   ## 
-##     ## ##     ## ##     ##  ##   ##     ##    ##          ####  ##  ##   ##  ##     ##  ##  ##         ##   ##     ##     ##  ##     ## ####  ## 
-##     ## ########  ##     ## ##     ##    ##    ######      ## ## ## ##     ## ##     ##  ##  ##   #### ##     ##    ##     ##  ##     ## ## ## ## 
-##     ## ##        ##     ## #########    ##    ##          ##  #### #########  ##   ##   ##  ##    ##  #########    ##     ##  ##     ## ##  #### 
-##     ## ##        ##     ## ##     ##    ##    ##          ##   ### ##     ##   ## ##    ##  ##    ##  ##     ##    ##     ##  ##     ## ##   ### 
- #######  ##        ########  ##     ##    ##    ########    ##    ## ##     ##    ###    ####  ######   ##     ##    ##    ####  #######  ##    ## 
+##     ## ########  ########     ###    ######## ########    ##    ##    ###    ##     ## ####  ######      ###    ######## ####  #######  ##    ##
+##     ## ##     ## ##     ##   ## ##      ##    ##          ###   ##   ## ##   ##     ##  ##  ##    ##    ## ##      ##     ##  ##     ## ###   ##
+##     ## ##     ## ##     ##  ##   ##     ##    ##          ####  ##  ##   ##  ##     ##  ##  ##         ##   ##     ##     ##  ##     ## ####  ##
+##     ## ########  ##     ## ##     ##    ##    ######      ## ## ## ##     ## ##     ##  ##  ##   #### ##     ##    ##     ##  ##     ## ## ## ##
+##     ## ##        ##     ## #########    ##    ##          ##  #### #########  ##   ##   ##  ##    ##  #########    ##     ##  ##     ## ##  ####
+##     ## ##        ##     ## ##     ##    ##    ##          ##   ### ##     ##   ## ##    ##  ##    ##  ##     ##    ##     ##  ##     ## ##   ###
+ #######  ##        ########  ##     ##    ##    ########    ##    ## ##     ##    ###    ####  ######   ##     ##    ##    ####  #######  ##    ##
 */
 
   /**
@@ -1691,13 +1691,13 @@ var Flowtime = (function ()
   }
 
 /*
-##    ##    ###    ##     ## ####  ######      ###    ######## ######## 
-###   ##   ## ##   ##     ##  ##  ##    ##    ## ##      ##    ##       
-####  ##  ##   ##  ##     ##  ##  ##         ##   ##     ##    ##       
-## ## ## ##     ## ##     ##  ##  ##   #### ##     ##    ##    ######   
-##  #### #########  ##   ##   ##  ##    ##  #########    ##    ##       
-##   ### ##     ##   ## ##    ##  ##    ##  ##     ##    ##    ##       
-##    ## ##     ##    ###    ####  ######   ##     ##    ##    ######## 
+##    ##    ###    ##     ## ####  ######      ###    ######## ########
+###   ##   ## ##   ##     ##  ##  ##    ##    ## ##      ##    ##
+####  ##  ##   ##  ##     ##  ##  ##         ##   ##     ##    ##
+## ## ## ##     ## ##     ##  ##  ##   #### ##     ##    ##    ######
+##  #### #########  ##   ##   ##  ##    ##  #########    ##    ##
+##   ### ##     ##   ## ##    ##  ##    ##  ##     ##    ##    ##
+##    ## ##     ##    ###    ####  ######   ##     ##    ##    ########
 */
 
   /**
@@ -1934,6 +1934,7 @@ var Flowtime = (function ()
     _isOverview = false;
     Brav1Toolbox.removeClass(body, "ft-overview");
     NavigationMatrix.hideFragments();
+
     navigate = navigate === false ? false : true;
     if (navigate == true) {
       if (back == true) {
@@ -1942,6 +1943,7 @@ var Flowtime = (function ()
         navigateTo();
       }
     }
+    toggleOverViewCustom ();
   }
 
   /**
@@ -1950,14 +1952,32 @@ var Flowtime = (function ()
   function zoomOut() {
     _isOverview = true;
     Brav1Toolbox.addClass(body, "ft-overview");
-    NavigationMatrix.showFragments();
-    //
+    NavigationMatrix.showFragments();        //
     if (_useOverviewVariant == false) {
       overviewZoomTypeA(true);
     } else {
       overviewZoomTypeB(true);
     }
     fireNavigationEvent();
+    toggleOverViewCustom ();
+  }
+  function toggleOverViewCustom () {
+    if (_isOverview===true) {
+      console.log ("run zoomout");
+      $("#toogleOverview").hide("fast");
+      $("body").css("background-color","#DCECF3");
+      $("body").css("background-image","url(img/connectBACK.jpg)");
+      $("body").css("background-position","bottom");
+      $("body").css("background-repeat","no-repeat");
+
+      $("img.showInOverview").show("fast");
+    } else {
+      console.log ("run zoomin");
+      $("body").css("background-color","#FFF");
+      $("body").css("background-image","");
+      $("img.showInOverview").hide("fast");
+      $("#toogleOverview").show("fast");
+    }
   }
 
   function overviewZoomTypeA(out) {
