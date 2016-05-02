@@ -1,7 +1,7 @@
 
 
 .frontpage {
-  line-height: 0.1rem;
+  line-height: 3vh;
   margin: 0;
 	padding: 5%;
   padding-top:25%;
@@ -20,10 +20,10 @@
   color:#FFF;
 }
 .frontpage h3{
-  line-height: 0.1rem;
+  line-height: 3vh;
 }
 .sense-slide-inner {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Railway', sans-serif;
   color: #4c4c4c;
   text-align: center;
   vertical-align: middle;

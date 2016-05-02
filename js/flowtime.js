@@ -1966,10 +1966,10 @@ var Flowtime = (function ()
       console.log ("run zoomout");
       $("#toogleOverview").hide("fast");
       $("body").css("background-color","#DCECF3");
-      $("body").css("background-image","url(img/connectBACK.jpg)");
-      $("body").css("background-position","bottom");
+      $("body").css("background-image","url(img/overview.jpeg)");
+      $("body").css("background-position","center center");
       $("body").css("background-repeat","no-repeat");
-
+      $("body").css("background-size","cover");    
       $("img.showInOverview").show("fast");
     } else {
       console.log ("run zoomin");
