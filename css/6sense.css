@@ -82,8 +82,9 @@
 .ft-page-thumb {
   background-color:#F4D80A;
   opacity: 1 ;
-  height: 1.3em;
-  width: 2em;
+  height: 3vh;
+  width: 4vh;
+  margin:0.1vh;
 }
 .ft-page-thumb:hover {
   opacity: 1 ;
@@ -107,7 +108,7 @@
   height: 37px;
   width: 50%;
   z-index:1050;
-  border:5px #2E5A6A Solid;
+  /* border:5px #2E5A6A Solid; */
   background-color:#2E5A6A;
 }
 #CurrentSelections div, #CurrentSelections button {
