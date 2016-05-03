@@ -30,6 +30,14 @@
   padding-top: 2%;
   height: 98%;
 }
+.sense-slide-inner-left {
+  font-family: 'Railway', sans-serif;
+  color: #4c4c4c;
+  text-align:left;
+  vertical-align: middle;
+  padding-top: 2%;
+  height: 98%;
+}
 .qlik-style {
   display: block;
   padding: 0;
