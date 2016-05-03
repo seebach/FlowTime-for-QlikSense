@@ -113,13 +113,13 @@ var app = qlik.openApp('35335b3a-bc39-4c5f-bf8e-091edc9800fa', config);
 
 	//get objects -- inserted here --
 	//get objects -- inserted here --
-	app.getObject('QV01','pgLTTXW');
-	app.getObject('QV02','pgLTTXW');
-	app.getObject('QV03','pgLTTXW');
-	app.getObject('QV04','pgLTTXW');
+	app.getObject('QV01','JCeASjX');
+	app.getObject('QV02','JCeASjX');
+	app.getObject('QV03','JCeASjX');
+	app.getObject('QV04','JCeASjX');
   app.getObject('QV05','pgLTTXW');
 	  app.getObject('QV06','pgLTTXW');
-		  app.getObject('QV07','pgLTTXW');	
+		  app.getObject('QV07','pgLTTXW');
 /*	app.getObject('QV02','pgLTTXW');
 	app.getObject('QV03','DdMTLaR');
 	app.getObject('QV04','hjbmjnj');

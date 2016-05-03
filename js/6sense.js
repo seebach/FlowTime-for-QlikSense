@@ -20,16 +20,17 @@ window.setInterval(function(){
 function flowController (e) {
    // alert(e.progress);
    console.log(e.progress);
-  if( e.progress == 4 ) {
-  //  app.bookmark.apply('KwKxY');
+  if( e.progress == 5 ) {
     $("#CurrentSelections").show("slow");
+    app.bookmark.apply('FrLAZp');
 
-  } else if( e.progress == 5 ) {
-    //  app.bookmark.apply('PArzPaM');
+  } else if( e.progress == 6 ) {
       $("#CurrentSelections").show("slow");
-    } else if( e.progress == 6 ) {
-      //  app.bookmark.apply('kEPJJf');
+      app.bookmark.apply('PArzPaM');
+
+    } else if( e.progress == 7 ) {
         $("#CurrentSelections").show("slow");
+        app.bookmark.apply('yfSRF');
 
   } else {
   //  hide stuff

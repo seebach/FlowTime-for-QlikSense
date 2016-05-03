@@ -16,12 +16,36 @@
   background-position: top 30%;
   background-repeat: no-repeat;
 }
-.frontpage h1{
+.frontpage  h1{
   color:#FFF;
 }
 .frontpage h3{
   line-height: 3vh;
 }
+.datapage {
+  line-height: 3vh;
+  margin: 0;
+	padding: 5%;
+  padding-top:25%;
+  height: 100%;
+  width: 100%;
+	color: #FFF;
+  border:0;
+  text-align: right;
+  vertical-align: bottom;
+  background-color: #FFF;
+  background-image: url('../img/data1.jpg');
+  background-position: top 30%;
+  background-repeat: no-repeat;
+}
+.datapage h1,.datapage h3 {
+  color: #F4D80A;
+}
+.datapage h1 {
+  font-size: 23vh;
+  line-height: 14vh;
+}
+
 .sense-slide-inner {
   font-family: 'Railway', sans-serif;
   color: #4c4c4c;
