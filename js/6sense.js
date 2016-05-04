@@ -22,19 +22,22 @@ function flowController (e) {
    console.log(e.progress);
   if( e.progress == 5 ) {
     $("#CurrentSelections").show("slow");
-    app.bookmark.apply('FrLAZp');
+    //app.bookmark.apply('FrLAZp');
+//    app.clearAll();
 
   } else if( e.progress == 6 ) {
       $("#CurrentSelections").show("slow");
-      app.bookmark.apply('PArzPaM');
+//      app.bookmark.apply('PArzPaM');
+// app.clearAll();
 
     } else if( e.progress == 7 ) {
         $("#CurrentSelections").show("slow");
-        app.bookmark.apply('yfSRF');
+//        app.bookmark.apply('yfSRF');
 
   } else {
   //  hide stuff
   $("#CurrentSelections").hide("slow");
+  // app.clearAll();
 
 //  app.clearAll();
   }

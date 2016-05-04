@@ -45,7 +45,12 @@
   font-size: 23vh;
   line-height: 14vh;
 }
+.qvt-visualization-title span {
+  font-size: 5vh;
+  font-weight: normal;
+  font-family: 'Railway', sans-serif;
 
+}
 .sense-slide-inner {
   font-family: 'Railway', sans-serif;
   color: #4c4c4c;

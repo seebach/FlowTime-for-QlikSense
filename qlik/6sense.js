@@ -109,24 +109,27 @@ require( ["js/qlik"], function ( qlik ) {
     //open apps -- inserted here --
 
 
-var app = qlik.openApp('35335b3a-bc39-4c5f-bf8e-091edc9800fa', config);
+ app = qlik.openApp('35335b3a-bc39-4c5f-bf8e-091edc9800fa', config);
+// hexbin vjpJJy
+app.getObject('QV01','kBFguNG');
+//	app.getObject('QV01','a0122bc0-5147-42ae-ad6e-2d8988fdf165');
+	app.getObject('QV020','HuvTCW');
+	app.getObject('QV021','3d6bd82a-1673-436f-8ba4-aefcd842bf4d');
+	app.getObject('QV03','dsDwpPT');
+	app.getObject('QV04','fPzUgD');
 
-	//get objects -- inserted here --
-	//get objects -- inserted here --
-	app.getObject('QV01','JCeASjX');
-	app.getObject('QV02','JCeASjX');
-	app.getObject('QV03','JCeASjX');
-	app.getObject('QV04','JCeASjX');
-  app.getObject('QV05','pgLTTXW');
-	  app.getObject('QV06','pgLTTXW');
-		  app.getObject('QV07','pgLTTXW');
-/*	app.getObject('QV02','pgLTTXW');
-	app.getObject('QV03','DdMTLaR');
-	app.getObject('QV04','hjbmjnj');
-	app.getObject('QV05','pJMFgw');
-	app.getObject('QV06','JCeASjX');
-	app.getObject('QV07','AxPmxs');
-*/
+  app.getObject('QV05','3d6bd82a-1673-436f-8ba4-aefcd842bf4d');
+	app.getObject('QV06','HuvTCW');
+	app.getObject('QV07','vjpJJy');
+
+//	app.getObject('QV08','HuvTCW');
+//	app.getObject('QV09','vjpJJy');
+
+//	app.getObject('QV10','HuvTCW');
+
+			app.getObject('QV08','mKxQh');
+			  app.getObject('QV09','JFmvwWy');
+
 	//create cubes and lists -- inserted here --
 	app.getObject( 'CurrentSelections', 'CurrentSelections' );
 
