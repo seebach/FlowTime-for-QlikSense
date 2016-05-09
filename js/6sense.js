@@ -27,7 +27,7 @@ function flowController (e) {
 
   } else if( e.progress == 6 ) {
       $("#CurrentSelections").show("slow");
-//      app.bookmark.apply('PArzPaM');
+//      app.bookmark.apply('PArzPaM'); 
 // app.clearAll();
 
     } else if( e.progress == 7 ) {
